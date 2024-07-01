@@ -7,7 +7,7 @@ from llama_index import SimpleDirectoryReader
 from dotenv import load_dotenv
 import openai
 load_dotenv()
-openai.api_key =os.getenv("OPENAI_API_KEY")
+openai.api_key =os.getenv("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")
 
 
 with st.sidebar:
